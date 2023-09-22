@@ -46,7 +46,6 @@ Method 2 is similar to method 1 with a slight different:
 Maximal success rate is 56.84%. It is achieved by methods 1 and 2, for a probability parameter of 0.05 and without using enhancement attempt number 1. Full results in the appendix.
 
 ## GD algorithm wins 
-Add a graph showing the results of a NN:
 Not much to say, using a GD algorithm, the predictions of the NN are much better.
 
 ## Downside of manually choosing the weights 
