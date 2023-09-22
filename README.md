@@ -4,7 +4,7 @@
 
 Artificial neural networks (NN) that are trained using one of the gradient descent (GD) algorithms have a significant downside- it is almost impossible to explain why such a NN decides one way or another.
 
-In this repository I will depict my attempt to find a replacement for the GD algorithms. Such an algorithm may create a NN that is not as accurate as a NN that was trained using a GD algorithm. However, an algorithm like that, will allow us to explain the reasoning behind the decisions of the NN.
+In this repository I will depict my attempt to find a replacement for the GD algorithms for handwriting classifying NN. Such an algorithm may create a NN that is not as accurate as a NN that was trained using a GD algorithm. However, an algorithm like that, will allow us to explain the reasoning behind the decisions of the NN.
 
 The problem the NN will face will be a handwriting classification problem. More specifically, digits identification, using the MNIST dataset. However, I will make the “fight” more interesting by significantly shrinking the training dataset. The MNIST dataset contains 60,000 training samples. I will allow the algorithms to learn from datasets no bigger than 100 samples.The testing samples will be chosen randomly. The MNIST testing dataset will not be reduced.
 
@@ -72,4 +72,13 @@ Seed = 7458-> results = [85.77, 87.3, 87.8, 87.15, 88.24, 88.48, 88.88, 88.94, 8
 Training a NN with a GD algorithm achieves much better results than choosing the weights using any of the methods above, with any enhancement. The GD algorithm creates a more stable NN in the sense that the accuracy level of the trained NN is less sensitive to the act of changing a few samples of the training dataset.
 
 ## Appendix
+
+![m1](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/acac576c-0677-4412-a62b-c0b4a67d17bc)
+![m2](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/d2a177f0-7852-461d-9db9-22a8e8694a9a)
+![m3](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/64466c0e-fd85-45b2-a553-4bd7cbe0234b)
+![m4](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/a2e40631-92e6-4c9e-ab54-d6c0ddd3cde0)
+![m5](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/affd8e6a-0a47-4da7-9898-81f757621e9d)
+![m6](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/123e6830-896a-4098-9464-db4e0cf841f3)
+![m7](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/34c96fe4-84e3-4551-8f02-f5a1e5990df8)
+
 
