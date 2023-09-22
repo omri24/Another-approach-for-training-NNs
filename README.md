@@ -46,6 +46,9 @@ Method 2 is similar to method 1 with a slight different:
 Maximal success rate is 56.84%. It is achieved by methods 1 and 2, for a probability parameter of 0.05 and without using enhancement attempt number 1. Full results in the appendix.
 
 ## GD algorithm wins 
+
+![accuracy- seed 0](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/01414fa7-3bf8-4ab2-9d02-dedb33000940)
+
 Not much to say, using a GD algorithm, the predictions of the NN are much better.
 
 ## Downside of manually choosing the weights 
@@ -53,6 +56,7 @@ Changing the training dataset may cause a significant change in the success rate
 Note that this problem is not apparent in the GD algorithm- success rates don't change dramatically when changing the training sets. 
 About the pytorch seed:
 if you are think that the conclusion above might be true only for the chosen pytorch seed of zero, I will let you know that this conclusion holds for the following seeds as well:
+
 Seed = 6 -> results = [84.74, 87.84, 87.81, 88.47, 88.2, 88.99, 88.67, 89.22, 89.02, 89.4]
 
 Seed = 986 -> results = [86.1, 86.78, 88.03, 88.07, 88.75, 89.05, 88.79, 89.09, 88.98, 89.32]
