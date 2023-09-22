@@ -10,6 +10,8 @@ The problem the NN will face will be a handwriting classification problem. More 
 
 The NN is linear, with no hidden layers.
 
+The non- GD algorithms use gz files that can be created by the export_MNIST script above. The gz files are too heavy to be uploaded.
+
 ## Assumptions about the data
 
 1. All data samples are images showing a digit in the range 0- 9.
