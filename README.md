@@ -54,7 +54,9 @@ Note that this problem is not apparent in the GD algorithm- success rates don't 
 About the pytorch seed:
 if you are think that the conclusion above might be true only for the chosen pytorch seed of zero, I will let you know that this conclusion holds for the following seeds as well:
 Seed = 6 -> results = [84.74, 87.84, 87.81, 88.47, 88.2, 88.99, 88.67, 89.22, 89.02, 89.4]
+
 Seed = 986 -> results = [86.1, 86.78, 88.03, 88.07, 88.75, 89.05, 88.79, 89.09, 88.98, 89.32]
+
 Seed = 7458-> results = [85.77, 87.3, 87.8, 87.15, 88.24, 88.48, 88.88, 88.94, 89.21, 89.51]
 
 
