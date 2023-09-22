@@ -8,6 +8,8 @@ In this repository I will depict my attempts to find a replacement for the GD al
 
 The problem the NN will face will be a handwriting classification problem. More specifically, digits identification, using the MNIST dataset. However, I will make the “fight” more interesting by significantly shrinking the training dataset. The MNIST dataset contains 60,000 training samples. I will allow the algorithms to learn from datasets no bigger than 100 samples.The testing samples will be chosen randomly. The MNIST testing dataset will not be reduced.
 
+The NN is linear, with no hidden layers.
+
 ## Assumptions about the data
 
 1. All data samples are images showing a digit in the range 0- 9.
@@ -23,10 +25,6 @@ This method uses assumption 3. The logic behind this method:
 2. For each digit, set the weights of the NN that connect those “high probability pixels” to the output representing the digit to 1. Any other weight- set to 0.
 3. Pass the testing data samples through the NN and classify each sample according to the maximal output of the NN.
 Note that high probability is not an accurate thing, and therefore a few probability thresholds will be compared.
-
-
-
-
 
 ## method 2 for calculating the NN parameters- background focusing
 
@@ -53,9 +51,13 @@ Not much to say, using a GD algorithm, the predictions of the NN are much better
 
 ## Downside of manually choosing the weights 
 Changing the training dataset may cause a significant change in the success rate, even if the training sets share the same amount of training samples:
+
+![70 samples bad results](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/4507d65b-f23b-4629-8a8b-0eb3f3442cb3)
+
+![70 samples good results](https://github.com/omri24/Another-approach-for-training-NNs/assets/115406253/98f8352c-32a0-40a9-9fbd-ba0d8f640053)
+
 Note that this problem is not apparent in the GD algorithm- success rates don't change dramatically when changing the training sets. 
-About the pytorch seed:
-if you are think that the conclusion above might be true only for the chosen pytorch seed of zero, I will let you know that this conclusion holds for the following seeds as well:
+If you think that the conclusion above might be true only for the chosen pytorch seed of zero, I will let you know that this conclusion holds for the following seeds as well:
 
 Seed = 6 -> results = [84.74, 87.84, 87.81, 88.47, 88.2, 88.99, 88.67, 89.22, 89.02, 89.4]
 
