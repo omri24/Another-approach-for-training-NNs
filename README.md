@@ -17,7 +17,7 @@ The non- GD algorithms use gz files that can be created by the export_MNIST scri
 
 1. All data samples are images showing a digit in the range 0- 9.
 2. All data samples are images with dimensions 28X28.
-3. Each type of digit has some pixels that are very likely to have ink inside, and some that are very unlikely to have ink inside. Here “having ink inside” means that the value of the corresponding cell is positive, and “not having ink inside” means that the value of the cell is zero.
+3. Each digit type has some pixels that are very likely to have ink inside, and some that are very unlikely to have ink inside. Here “having ink inside” means that the value of the corresponding cell is positive, and “not having ink inside” means that the value of the cell is zero.
 
 All the assumptions except 3, are trivial for the MNIST dataset. 3 isn’t trivial but it makes sense. 
 
