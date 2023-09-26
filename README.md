@@ -79,9 +79,9 @@ Training a NN with a GD algorithm achieves much better results than choosing the
 
 Cells with green background:
 
-vertical axis: the value that defines "high probability" (first step in each method).
+Vertical axis: the value that defines "high probability" (first step in each method).
 
-horizontal axis: the number of training samples.
+Horizontal axis: the number of training samples.
 
 Cells with white background: the accuracy level (as percentage).
 
