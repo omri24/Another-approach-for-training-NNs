@@ -21,7 +21,7 @@ The non- GD algorithms use gz files that can be created by the export_MNIST scri
 
 All the assumptions except 3, are trivial for the MNIST dataset. 3 isn’t trivial but it makes sense. 
 
-## method 1 for calculating the NN parameters- ink focusing
+## Method 1 for calculating the NN parameters- ink focusing
 
 This method uses assumption 3. 
 
@@ -32,7 +32,7 @@ The logic behind this method:
 
 Note that high probability is not an accurate thing, and therefore a few probability thresholds will be compared.
 
-## method 2 for calculating the NN parameters- background focusing
+## Method 2 for calculating the NN parameters- background focusing
 
 Method 2 is similar to method 1 with a slight different:
 1. Locate the pixels that are zero (“doesn’t have ink inside”) in a high probability for each digit. This step of the process is done with the training dataset, the process is very similar to the process in method 1.
