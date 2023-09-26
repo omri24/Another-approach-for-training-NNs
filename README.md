@@ -11,7 +11,7 @@ The training samples will be chosen randomly. The MNIST testing dataset will not
 
 The NN is linear, with no hidden layers.
 
-The non- GD algorithms use gz files that can be created by the export_MNIST script above. The gz files are too heavy to be uploaded.
+The non- GD algorithms use gz files that can be created by the export_MNIST script above. The gz files are too heavy to be uploaded to GitHub.
 
 ## Assumptions about the data
 
