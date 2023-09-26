@@ -35,7 +35,7 @@ Note that high probability is not an accurate thing, and therefore a few probabi
 ## Method 2 for calculating the NN parameters- background focusing
 
 Method 2 is similar to method 1, with a slight difference:
-1. Locate the pixels that are zero (“doesn’t have ink inside”) in a high probability for each digit. This step of the process is done with the training dataset, the process is very similar to the process in method 1.
+1. Locate the pixels that are zero (“doesn’t have ink inside”) in a high probability for each digit. This step of the process is done with the training dataset. The rest of this step is very similar to step 1 in method 1.
 2. For each digit, set the weights of the NN that connect those “high probability pixels” to the output representing the digit to 1. Any other weight- set to 0.
 3. Pass the testing data samples through the NN and classify each sample according to the minimal output of the NN.
 
