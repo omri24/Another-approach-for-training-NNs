@@ -23,7 +23,9 @@ All the assumptions except 3, are trivial for the MNIST dataset. 3 isn’t trivi
 
 ## method 1 for calculating the NN parameters- ink focusing
 
-This method uses assumption 3. The logic behind this method:
+This method uses assumption 3. 
+
+The logic behind this method:
 1. Locate the pixels that are positive (“have ink inside”) in a high probability for each digit. This step of the process is done with the training dataset: shift all the samples to binary images (all positive values ->1, zeros aren’t changed), sum the columns (each column represents a pixel), divided each column by its sum and now each cell have inside a probability: given this pixel (database column) is “with ink”, what is the probability for a certain digit (database row).
 2. For each digit, set the weights of the NN that connect those “high probability pixels” to the output representing the digit to 1. Any other weight- set to 0.
 3. Pass the testing data samples through the NN and classify each sample according to the maximal output of the NN.
