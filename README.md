@@ -6,7 +6,7 @@ Artificial neural networks (NN) that are trained using one of the gradient desce
 
 In this repository I will depict my attempt to find a replacement for the GD algorithms for handwriting classifying NN. Such an algorithm may create a NN that is not as accurate as a NN that was trained using a GD algorithm. However, an algorithm like that, will allow us to explain the reasoning behind the decisions of the NN.
 
-The problem the NN will face will be a handwriting classification problem. More specifically, digits identification, using the MNIST dataset. However, I will make the “fight” more interesting by significantly shrinking the training dataset. The MNIST dataset contains 60,000 training samples. I will allow the algorithms to learn from datasets no bigger than 100 samples.The testing samples will be chosen randomly. The MNIST testing dataset will not be reduced.
+The problem the NN will face will be a handwriting classification problem. More specifically, digits identification, using the MNIST dataset. However, I will make the “fight” more interesting by significantly shrinking the training dataset. The MNIST dataset contains 60,000 training samples. I will allow the algorithms to learn from datasets no bigger than 100 samples. The training samples will be chosen randomly. The MNIST testing dataset will not be reduced.
 
 The NN is linear, with no hidden layers.
 
