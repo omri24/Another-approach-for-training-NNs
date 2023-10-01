@@ -73,7 +73,7 @@ Seed = 7458-> success rates = [85.77, 87.3, 87.8, 87.15, 88.24, 88.48, 88.88, 88
 
 
 ## Conclusions
-Training a NN with a GD algorithm achieves much better results than choosing the weights using any of the methods above, with any enhancement. The GD algorithm creates a more stable NN in the sense that the accuracy level of the trained NN is less sensitive to the act of changing a few samples of the training dataset. If for a certain application it is necessary to be able to explain the logic behind the NN desicions, then using the methods above, accuracy of 56.84% can be achieved. Otherwise, using a GD algorithm will be the more accurate option.
+Training a NN with a GD algorithm achieves much better results than choosing the weights using any of the methods above, with any enhancement. The GD algorithm creates a more stable NN in the sense that the accuracy level of the trained NN is less sensitive to the act of changing a few samples of the training dataset. If for a certain application it is necessary to be able to explain the logic behind the NN decisions, then using the methods above, accuracy of 56.84% can be achieved. Otherwise, using a GD algorithm will be the more accurate option.
 
 ## Appendix
 
