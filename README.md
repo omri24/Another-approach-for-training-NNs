@@ -8,7 +8,7 @@
 
 3. The problem that the NN will face is handwritten digits classification (from the MNIST dataset).
 
-4. The NN will be trained using the GD algorithm, and using its replacements, on training datasets of not more than 100 training samples (if we would use all the 60,000 training samples this comparison will probably be less interesting).
+4. The NN will be trained using the GD algorithm, and using its replacements, on training datasets of not more than 100 training samples (using all the 60,000 training samples will probably result in a less interesting comparison).
 
 5. The results: without using a GD algorithm, the maximal accuracy achieved by the NN is 56.84%. The GD on the other hand creates a NN with accuracy level of more than 85%. GD wins.
 
