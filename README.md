@@ -4,7 +4,7 @@
 
 1. Artificial neural networks (NN) that are trained using one of the gradient descent (GD) algorithms have a significant downside- it is almost impossible to explain why such a NN decides one way or another.
 
-2. This repository depicts an attempt to examine a few methods for choosing the wights without using a GD algorithm. Such methods can be useful if for a certain application, it is necessary to be able to easily explain the logic behind the decision of the NN.
+2. This repository depicts an attempt to examine a few methods for choosing the weights without using a GD algorithm. Such methods can be useful if for a certain application, it is necessary to be able to easily explain the logic behind the decision of the NN.
 
 3. The problem that the NN will face is handwritten digits classification (from the MNIST dataset).
 
